@@ -1,0 +1,3 @@
+[submodule "fastapi_project"]
+	path = fastapi_project
+	url = https://github.com/brunoalvesvidal/fastapi_project.git
