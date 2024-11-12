@@ -11,4 +11,4 @@ def test_need_ok():
     response = client.get("/")
 
     assert response.status_code == HTTPStatus.OK
-    assert response.json() == "Teste de Mesa"
+    assert response.json() == {"message": "Teste de Mesa"}
